@@ -1,0 +1,66 @@
+h1 {
+  font-size: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(71, 21, 118);
+  text-align: center;
+}
+
+
+main {
+  width: 55vw;
+  height: 50vh;
+  margin: 0 auto;
+  border: 2px solid rgb(145, 69, 181);
+  display: flex; 
+  flex-direction: column;
+  justify-items: center;
+}
+
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#input, #button{
+width: 10vw;
+height: 6vh;
+border-radius: 20px;
+background-color: rgb(179, 243, 221);
+text-align: center;
+border-style: none;
+}
+
+p {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(34, 1, 57);
+}
+
+#input {
+  margin-bottom: 30px;
+  background-color: rgb(227, 224, 220);
+}
+
+#button:hover {
+cursor: pointer;
+text-decoration: underline;
+color: rgb(23, 110, 6);
+}
+
+.block2 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.error {
+  font-size: large;
+  color: crimson;
+}
+
+.bdayMessage {
+  font-size: x-large;
+  color: blue;
+}
